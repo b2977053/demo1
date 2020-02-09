@@ -118,8 +118,16 @@
               "devServerTarget": "demo1:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "demo1"
+    }
+  },
+  "defaultProject": "demo1",
+  "cli": {
+    "analytics": "f3d526b5-9023-4746-b672-6110276aa765"
+  }
 }
